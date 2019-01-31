@@ -1,0 +1,44 @@
+* {
+	text-align: center;
+	/* font-size: 150%; */
+  }
+  
+  body, html {
+	  background-image: linear-gradient(to right, red , blue);
+	  font-family: sans-serif;
+  }
+  
+  .wrapper {
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-gap: 10px;
+   grid-auto-rows: minmax(100px, auto)
+  }
+  
+  p {
+	color: white;
+  }
+  
+  h3, h4 {
+	font-size: 20px;
+	background: -webkit-linear-gradient(rgb(127, 224, 224), rgb(112, 221, 78));
+	/* -webkit-background-clip: text; */
+	-webkit-text-fill-color: transparent;
+  }
+  
+  h2 {
+	font-size: 40px;
+	background: -webkit-linear-gradient(rgb(24, 212, 49), rgb(112, 221, 78));
+	/* -webkit-background-clip: text; */
+	-webkit-text-fill-color: transparent;
+  }
+  
+  .btn-submit {
+	background-color: aquamarine;
+	border-color: rgb(196, 255, 209);
+	width: 5%;
+	height: 30px;
+	color: blue;
+	font-weight: bold;
+  }
+  
