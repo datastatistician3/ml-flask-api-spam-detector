@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-  <!-- <link rel="stylesheet" href="../static/css/style.css"> -->
+  <!-- <link rel="stylesheet" href="../static/styles.css"> -->
  </head>
  <body>
   <header>
@@ -21,9 +21,9 @@
    <p>{{ message }}</p>
 
   {% if prediction == 1%}
-  <h2 style="color:red;">The message above is a Spam.</h2>
+  <h2 style="color:crimson;">The message above is a Spam.</h2>
   {% elif prediction == 0%}
-  <h2 style="color:blue;">The message above not a Spam.</h2>
+  <h2 style="color:lightgreen;">The message above not a Spam.</h2>
   {% endif %}
   </div>
 

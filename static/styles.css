@@ -4,7 +4,7 @@
   }
   
   body, html {
-	  background-image: linear-gradient(to right, red , blue);
+	  background-image: linear-gradient(to right, crimson , blue);
 	  font-family: sans-serif;
   }
   
@@ -15,22 +15,25 @@
    grid-auto-rows: minmax(100px, auto)
   }
   
+
   p {
 	color: white;
   }
   
   h3, h4 {
 	font-size: 20px;
-	background: -webkit-linear-gradient(rgb(127, 224, 224), rgb(112, 221, 78));
-	/* -webkit-background-clip: text; */
-	-webkit-text-fill-color: transparent;
+	color: gold;
+/*	background: -webkit-linear-gradient(rgb(127, 224, 224), rgb(112, 221, 78));
+	 -webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;*/
   }
   
   h2 {
 	font-size: 40px;
-	background: -webkit-linear-gradient(rgb(24, 212, 49), rgb(112, 221, 78));
-	/* -webkit-background-clip: text; */
-	-webkit-text-fill-color: transparent;
+	color: yellow;
+	/*background: -webkit-linear-gradient(rgb(24, 212, 49), rgb(112, 221, 78));
+	 -webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;*/
   }
   
   .btn-submit {
@@ -41,4 +44,3 @@
 	color: blue;
 	font-weight: bold;
   }
-  
